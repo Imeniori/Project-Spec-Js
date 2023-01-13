@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Project specification</h1>
+    <h2>Drag the cards to move them</h2>
+    
+    <div class="container">
+      <div class="card-carousel">
+        <div class="card" id="1">
+          <div class="image-container"></div>
+          <p>In my project, I want to show everyone that Shibuya can be an amazing destination, 
+            through a travel website.</p>
+        </div>
+        <div class="card" id="2">
+          <div class="image-container"></div>
+          <p>I shall give you a general idea about Shibuya
+            by describing the different attractions and places people can visit, and of course provide the google maps itinerary links. </p>
+        </div>
+        <div class="card" id="3">
+          <div class="image-container"></div>
+          <p>  The visitors of my website can access any necessary information about trains and such, in order to get around.
+            Since as you may know traveling in japan is mostly by train</p>
+        </div>  
+        <div class="card" id="4">
+          <div class="image-container"></div>
+          <p>Need a hotel? Easy, here you'll find different hotels depending on prices with the possibility to book one either on my website with the form I coded or directly
+            from Booking.com.</p>
+        </div>
+        <div class="card" id="5">
+          <div class="image-container"></div>
+          <p>Everyone will be able to write comments, check the links I used to fetch my info and of course see my contact information at the bottom of the page.</p>
+        </div>
+      </div>
+      <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+    </div>
+
+  <section>
+    <div id="login-button">
+      </div>
+      <div id="container2">
+        <h1 class="h">Log In</h1>
+        <span class="close-btn">
+        </span>
+      
+        <form><br>
+          <input type="email" name="email" placeholder="E-mail"><br><br>
+          <input type="password" name="pass" placeholder="Password"><br><br>
+          <a href="#">Log in</a><br><br>
+          <div id="remember-container">
+            <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
+            <span id="remember">Remember me</span>
+            <br>
+          </div>
+      </form>
+      </div>
+      
+      <!-- Forgotten Password Container -->
+      <div id="forgotten-container">
+         <h1 class="hh">Forgotten password</p></h1><br>
+      
+        <form>
+          <input type="email" name="email" placeholder="E-mail"><br><br>
+          <a href="#" class="orange-btn">Get new password</a><br>
+      </form><br><br>
+      </div>
+  </section>
+
+<script src="index.js"></script>
+</body>
+</html>
